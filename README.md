@@ -14,8 +14,8 @@ Geco is a straightforward Visual Studio Code extension that lets you view the so
 Geco eliminates the need to open files one by one. Whether you’re reviewing, debugging, or comparing code, it delivers a clean, organized view of your files’ contents in one place.
 
 ## Installation
-
-Available soon on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Nutes.geco) (link will be updated after publishing).
+![Version](https://vsmarketplacebadges.dev/version-short/Nutes.geco.svg) <br>
+Available on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Nutes.geco).
 
 ## Usage
 
