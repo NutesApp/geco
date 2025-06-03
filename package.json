@@ -2,15 +2,16 @@
   "name": "geco",
   "displayName": "Geco",
   "description": "Get and display code of selected files in VS Code",
+  "icon": "media/Geco.png",
   "version": "0.0.1",
-  "publisher": "AbdoDev",
+  "publisher": "Nutes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AbdoDev/geco.git"
+    "url": "https://github.com/NutesApp/geco.git"
   },
-  "homepage": "https://github.com/AbdoDev/geco",
+  "homepage": "https://github.com/NutesApp/geco",
   "bugs": {
-    "url": "https://github.com/AbdoDev/geco/issues"
+    "url": "https://github.com/NutesApp/geco/issues"
   },
   "keywords": [
     "vscode",

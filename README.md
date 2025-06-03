@@ -15,7 +15,7 @@ Geco eliminates the need to open files one by one. Whether you’re reviewing, d
 
 ## Installation
 
-Available soon on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AbdoDev.geco) (link will be updated after publishing).
+Available soon on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Nutes.geco) (link will be updated after publishing).
 
 ## Usage
 
@@ -33,7 +33,7 @@ Available soon on the [VS Code Marketplace](https://marketplace.visualstudio.com
 
 ## Contributing
 
-Want to improve Geco? Submit issues or pull requests to the [GitHub repository](https://github.com/AbdoDev/geco).
+Want to improve Geco? Submit issues or pull requests to the [GitHub repository](https://github.com/NutesApp/geco).
 
 ## License
 
