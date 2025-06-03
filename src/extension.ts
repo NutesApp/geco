@@ -35,7 +35,7 @@ export function activate(context: vscode.ExtensionContext) {
           // Create a new untitled document with the combined content
           const document = await vscode.workspace.openTextDocument({
             content: outputContent,
-            language: "markdown", // Default to plaintext; VS Code infers syntax if possible
+            language: "markdown", // Default to markdown; VS Code infers syntax if possible
           });
           await vscode.window.showTextDocument(document);
         } else {
