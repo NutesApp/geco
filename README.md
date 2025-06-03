@@ -1,28 +1,40 @@
 # Geco
 
-A Visual Studio Code extension to display the source code of one or multiple selected files in a new editor tab.
+Geco is a straightforward Visual Studio Code extension that lets you view the source code of selected files in a single editor tab. Right-click files, select **Get Code from Selected Files**, and see their contents instantly, each prefixed with `// FILE: filename` in all caps. Ideal for quick code reviews without opening multiple tabs.
 
 ## Features
 
-- Select one or multiple files in the File Explorer.
-- Right-click and choose "Get Code from Selected Files" from the context menu.
-- View the combined content of selected files in a new editor tab.
+- **Instant Code Access**: Right-click files in the File Explorer and select **Get Code from Selected Files** to view their contents in one tab.
+- **Formatted Output**: Each file’s code is prefixed with `// FILE: filename` (in all caps) for clear separation.
+- **Multi-File Support**: Handles one or multiple text-readable files of any type.
+- **Native Integration**: Fits seamlessly into VS Code’s context menu for a smooth experience.
 
-## Usage
+## Why Geco?
 
-1. Open the File Explorer in VS Code.
-2. Select one or more files.
-3. Right-click and select **Get Code from Selected Files**.
-4. The content of the selected files will be displayed in a new editor tab.
+Geco eliminates the need to open files one by one. Whether you’re reviewing, debugging, or comparing code, it delivers a clean, organized view of your files’ contents in one place.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/AbdoDev/geco.git`
-2. Run `npm install` in the project directory.
-3. Compile the extension: `npm run compile`.
-4. Package the extension: `vsce package`.
-5. Publish to the VS Code Marketplace using `vsce publish`.
+Available soon on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AbdoDev.geco) (link will be updated after publishing).
+
+## Usage
+
+1. In VS Code’s File Explorer, select one or more files.
+2. Right-click and choose **Get Code from Selected Files**.
+3. View the contents in a new tab, formatted as:
+
+   ```
+   // FILE: index.js
+   [code]
+
+   // FILE: server.js
+   [code]
+   ```
+
+## Contributing
+
+Want to improve Geco? Submit issues or pull requests to the [GitHub repository](https://github.com/AbdoDev/geco).
 
 ## License
 
-MIT
+[MIT License](LICENSE.md).
