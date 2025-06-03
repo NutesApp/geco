@@ -1,0 +1,68 @@
+{
+  "name": "geco",
+  "displayName": "Geco",
+  "description": "Get and display code of selected files in VS Code",
+  "version": "0.0.1",
+  "publisher": "AbdoDev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdoDev/geco.git"
+  },
+  "homepage": "https://github.com/AbdoDev/geco",
+  "bugs": {
+    "url": "https://github.com/AbdoDev/geco/issues"
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "code viewer",
+    "file content",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:Geco.getCode"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "Geco.getCode",
+        "title": "Get Code from Selected Files"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "Geco.getCode",
+          "group": "navigation",
+          "when": "explorerResourceIsFolder == false"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
